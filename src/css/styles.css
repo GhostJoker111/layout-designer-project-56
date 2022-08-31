@@ -1,5 +1,26 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+p {
+  line-height: 1.5;
+  color: #cacaca;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+p, h1, h2 {
+  margin: 0;
+  font-family: "Roboto";
+}
+
 body {
   margin: 0;
+  background-color: #08020d;
 }
 
 #page-description {
@@ -9,8 +30,31 @@ body {
 }
 
 @media screen and (min-width: 1240px) {
-  #page-description {
+  .main {
     width: 1200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
+  }
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
+  }
+  .forms, .button {
+    max-width: 570px;
+  }
+}
+@media screen and (max-width: 1239px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
   }
 }
 

@@ -1,5 +1,27 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+p {
+  line-height: 1.5;
+  color: $p-color;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $h-color;
+}
+  
+p, h1, h2 {
+  margin: 0;
+  font-family: "Roboto";
+}
+
 body {
-margin: 0;
+  margin: 0;
+  background-color: $background-color;
 }
 
 #page-description {
