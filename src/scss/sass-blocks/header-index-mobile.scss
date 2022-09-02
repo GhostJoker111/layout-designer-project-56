@@ -1,0 +1,16 @@
+@media screen and (max-width: 1239px) {
+#main-section {
+  @include index-bg-image
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 45px;
+}
+    
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+}

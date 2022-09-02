@@ -1,6 +1,14 @@
 @font-face {
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
   src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(../fonts/Roboto-Bold.ttf);
 }
 p {
   line-height: 1.5;
@@ -13,9 +21,16 @@ h1, h2 {
   color: #FFFFFF;
 }
 
-p, h1, h2 {
+a, p, h1, h2 {
   margin: 0;
-  font-family: "Roboto";
+  font-family: "Roboto-Regular";
+}
+
+a {
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 16.5px;
+  color: #FFFFFF;
 }
 
 body {
@@ -23,15 +38,27 @@ body {
   background-color: #08020d;
 }
 
-#page-description {
-  background-image: url(/Hexlet_Project2/layout-designer-project-56/src/images/banner.png);
-  background-position: center;
-  background-size: cover;
+.music-box {
+  padding: 0;
+  margin-right: 16px;
+  background-color: unset;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1240px) {
-  .main {
+  #main-section {
+    display: flex;
+    justify-content: center;
+    background-image: url(/Hexlet_Project2/layout-designer-project-56/src/images/banner.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .w-1200 {
     width: 1200px;
+  }
+  #page-description {
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -46,8 +73,25 @@ body {
   .forms, .button {
     max-width: 570px;
   }
+  .search {
+    width: 238px;
+    height: 15px;
+    background: #3C3B3D;
+    border-radius: 50px;
+    padding: 5px 0 5px 10px;
+    border: none;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
 }
 @media screen and (max-width: 1239px) {
+  #main-section {
+    background-image: url(/Hexlet_Project2/layout-designer-project-56/src/images/banner.png);
+    background-position: center;
+    background-size: cover;
+  }
   h1 {
     font-size: 30px;
     line-height: 45px;
