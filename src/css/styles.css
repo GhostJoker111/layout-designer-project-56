@@ -59,6 +59,7 @@ body {
 }
 
 .menu {
+  position: absolute;
   margin-top: 25px;
 }
 
@@ -89,6 +90,9 @@ body {
 }
 
 @media screen and (min-width: 1240px) {
+  p {
+    color: #FFFFFF;
+  }
   #main-section {
     display: flex;
     justify-content: center;
@@ -127,9 +131,17 @@ body {
     display: grid;
     grid-template-columns: repeat(3, auto);
   }
-  .col-1, .col-2, .col-3 {
+  .col-1, .col-3 {
     display: flex;
     align-items: center;
+  }
+  .col-2 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+  }
+  .ml-auto {
+    margin-left: auto;
   }
   .name, .Email {
     min-width: 245px;
