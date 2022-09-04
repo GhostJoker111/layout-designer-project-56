@@ -35,6 +35,10 @@ a, p, h1, h2 {
   font-family: "Roboto-Regular";
 }
 
+p {
+  margin-bottom: 17px;
+}
+
 a {
 font-size: 11px;
 text-decoration: none;
@@ -57,5 +61,38 @@ body {
 }
 
 #page-description {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  margin-top: 25px;
+}
+
+.forms {
+  display: flex;
+}
+
+.name, .Email {
+padding-left: 20px;
+margin-bottom: 1.5rem;
+border: solid 2px $p-color;
+border-radius: 3px;
+background: transparent;
+font-family: "Roboto-Regular";
+font-size: 14px;
+}
+
+.name::placeholder, .Email::placeholder {
+color: $h-color;
+}
+
+.get-access {
+  padding: 20px 0;
+  border: none;
+  border-radius: 5px;
+  color: $h-color;
+  background-color: #34C176;
 }

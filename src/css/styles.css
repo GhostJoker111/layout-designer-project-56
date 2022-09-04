@@ -26,6 +26,10 @@ a, p, h1, h2 {
   font-family: "Roboto-Regular";
 }
 
+p {
+  margin-bottom: 17px;
+}
+
 a {
   font-size: 11px;
   text-decoration: none;
@@ -48,7 +52,40 @@ body {
 }
 
 #page-description {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  margin-top: 25px;
+}
+
+.forms {
+  display: flex;
+}
+
+.name, .Email {
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: solid 2px #cacaca;
+  border-radius: 3px;
+  background: transparent;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+}
+
+.name::placeholder, .Email::placeholder {
+  color: #FFFFFF;
+}
+
+.get-access {
+  padding: 20px 0;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #34C176;
 }
 
 @media screen and (min-width: 1240px) {
@@ -73,6 +110,7 @@ body {
   h2 {
     font-size: 38px;
     line-height: 57px;
+    margin-bottom: 30px;
   }
   .forms, .button {
     max-width: 570px;
@@ -92,6 +130,16 @@ body {
   .col-1, .col-2, .col-3 {
     display: flex;
     align-items: center;
+  }
+  .name, .Email {
+    min-width: 245px;
+    min-height: 45px;
+  }
+  .Email {
+    margin-left: 25px;
+  }
+  .get-access {
+    width: 570px;
   }
 }
 @media screen and (max-width: 1239px) {
