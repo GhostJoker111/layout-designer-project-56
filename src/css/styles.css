@@ -47,6 +47,10 @@ body {
   cursor: pointer;
 }
 
+#page-description {
+  text-align: center;
+}
+
 @media screen and (min-width: 1240px) {
   #main-section {
     display: flex;
@@ -84,6 +88,10 @@ body {
   .menu {
     display: grid;
     grid-template-columns: repeat(3, auto);
+  }
+  .col-1, .col-2, .col-3 {
+    display: flex;
+    align-items: center;
   }
 }
 @media screen and (max-width: 1239px) {
