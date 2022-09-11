@@ -61,6 +61,8 @@ body {
 }
 
 #page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,11 +71,19 @@ body {
 
 .menu {
   position: absolute;
-  margin-top: 25px;
+  top: 25px;
 }
 
 .forms {
   display: flex;
+}
+
+.search {
+  height: 15px;
+  background: #3C3B3D;
+  border-radius: 50px;
+  padding: 5px 0 5px 10px;
+  border: none;
 }
 
 .name, .Email {
@@ -84,6 +94,7 @@ border-radius: 3px;
 background: transparent;
 font-family: "Roboto-Regular";
 font-size: 14px;
+min-height: 45px;
 }
 
 .name::placeholder, .Email::placeholder {
@@ -94,6 +105,12 @@ color: $h-color;
   padding: 20px 0;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
   color: $h-color;
   background-color: #34C176;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
 }

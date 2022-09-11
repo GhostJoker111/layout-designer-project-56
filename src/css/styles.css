@@ -52,6 +52,8 @@ body {
 }
 
 #page-description {
+  padding-top: 200px;
+  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,11 +62,19 @@ body {
 
 .menu {
   position: absolute;
-  margin-top: 25px;
+  top: 25px;
 }
 
 .forms {
   display: flex;
+}
+
+.search {
+  height: 15px;
+  background: #3C3B3D;
+  border-radius: 50px;
+  padding: 5px 0 5px 10px;
+  border: none;
 }
 
 .name, .Email {
@@ -75,6 +85,7 @@ body {
   background: transparent;
   font-family: "Roboto-Regular";
   font-size: 14px;
+  min-height: 45px;
 }
 
 .name::placeholder, .Email::placeholder {
@@ -85,8 +96,14 @@ body {
   padding: 20px 0;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
   color: #FFFFFF;
   background-color: #34C176;
+}
+
+.col-1 {
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (min-width: 1240px) {
@@ -103,10 +120,6 @@ body {
   .w-1200 {
     width: 1200px;
   }
-  #page-description {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
   h1 {
     font-size: 60px;
     line-height: 90px;
@@ -121,31 +134,30 @@ body {
   }
   .search {
     width: 238px;
-    height: 15px;
-    background: #3C3B3D;
-    border-radius: 50px;
-    padding: 5px 0 5px 10px;
-    border: none;
   }
   .menu {
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    width: 1200px;
   }
-  .col-1, .col-3 {
+  .col-3 {
     display: flex;
     align-items: center;
+  }
+  .mr-90 {
+    margin-right: 90px;
   }
   .col-2 {
     display: grid;
     grid-template-columns: repeat(4, auto);
     align-items: center;
+    justify-self: flex-start;
+    grid-gap: 24px;
   }
   .ml-auto {
     margin-left: auto;
   }
   .name, .Email {
     min-width: 245px;
-    min-height: 45px;
   }
   .Email {
     margin-left: 25px;
@@ -167,6 +179,21 @@ body {
   h2 {
     font-size: 18px;
     line-height: 27px;
+  }
+  p {
+    margin-top: 16px;
+    text-align: center;
+  }
+  .w-1200 {
+    padding: 0 20px;
+  }
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .forms {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
