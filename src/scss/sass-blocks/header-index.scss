@@ -1,8 +1,4 @@
 @media screen and (min-width: 1240px) {
-p {
-  color: #FFFFFF;
-}
-
 #main-section {
   display: flex;
   justify-content: center;
@@ -53,8 +49,16 @@ h2 {
   grid-gap: 24px;
 }
 
+.col-2 a:nth-child(n + 2) {
+  color: $p-color;
+}
 .ml-auto{
   margin-left: auto;
+}
+
+#page-description {
+padding-top: 200px;
+padding-bottom: 200px;
 }
 
 .name, .Email {

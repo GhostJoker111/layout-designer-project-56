@@ -21,7 +21,7 @@
 
 p {
   line-height: 1.5;
-  color: $p-color;
+  color: $h-color;
 }
 
 h1, h2 {
@@ -61,8 +61,6 @@ body {
 }
 
 #page-description {
-  padding-top: 200px;
-  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -12,7 +12,7 @@
 }
 p {
   line-height: 1.5;
-  color: #cacaca;
+  color: #FFFFFF;
 }
 
 h1, h2 {
@@ -52,8 +52,6 @@ body {
 }
 
 #page-description {
-  padding-top: 200px;
-  padding-bottom: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,9 +105,6 @@ body {
 }
 
 @media screen and (min-width: 1240px) {
-  p {
-    color: #FFFFFF;
-  }
   #main-section {
     display: flex;
     justify-content: center;
@@ -153,8 +148,15 @@ body {
     justify-self: flex-start;
     grid-gap: 24px;
   }
+  .col-2 a:nth-child(n+2) {
+    color: #cacaca;
+  }
   .ml-auto {
     margin-left: auto;
+  }
+  #page-description {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   .name, .Email {
     min-width: 245px;
@@ -172,6 +174,10 @@ body {
     background-position: center;
     background-size: cover;
   }
+  #page-description {
+    padding-top: 250px;
+    padding-bottom: 250px;
+  }
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -184,16 +190,45 @@ body {
     margin-top: 16px;
     text-align: center;
   }
+  #page-description > h1 {
+    text-align: center;
+  }
   .w-1200 {
     padding: 0 20px;
+  }
+  .menu {
+    width: calc(100% - 40px);
   }
   .col-2 {
     display: flex;
     flex-direction: column;
+    margin: 18px 0;
+  }
+  .col-2 a:nth-child(1) {
+    color: #E0E0E0;
+  }
+  .col-2 a:nth-child(even) {
+    color: #cacaca;
+  }
+  .search {
+    width: calc(100% - 10px);
   }
   .forms {
     flex-direction: column;
     align-items: center;
+  }
+  .forms, form {
+    width: 100%;
+  }
+  .name, .Email {
+    width: calc(100% - 25px);
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .button, .get-access {
+    width: 100%;
   }
 }
 
