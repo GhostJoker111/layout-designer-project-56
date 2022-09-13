@@ -108,7 +108,7 @@ body {
   #main-section {
     display: flex;
     justify-content: center;
-    background-image: url(/Hexlet_Project2/layout-designer-project-56/src/images/banner.png);
+    background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
   }
@@ -170,7 +170,7 @@ body {
 }
 @media screen and (max-width: 1239px) {
   #main-section {
-    background-image: url(/Hexlet_Project2/layout-designer-project-56/src/images/banner.png);
+    background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
   }
