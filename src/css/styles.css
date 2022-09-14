@@ -15,7 +15,7 @@ p {
   color: #FFFFFF;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: bold;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -26,8 +26,8 @@ a, p, h1, h2 {
   font-family: "Roboto-Regular";
 }
 
-p {
-  margin-bottom: 17px;
+h3 {
+  font-family: "Roboto-Regular";
 }
 
 a {
@@ -104,6 +104,78 @@ body {
   align-items: center;
 }
 
+#page-pricing {
+  padding-top: 100px;
+}
+
+.h-subscription > h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+}
+
+.pricing-item > h3 {
+  margin-bottom: 200px;
+}
+
+.pricing-footer {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-align: center;
+  margin: 64px 0;
+}
+
+.pricing-value {
+  font-size: 64px;
+  line-height: 64px;
+  margin-bottom: 40px;
+}
+
+.rub {
+  font-size: 32px;
+  line-height: 48px;
+  vertical-align: top;
+}
+
+.bg-free {
+  background-image: url(../images/subscribe_1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-standart {
+  background-image: url(../images/subscribe_2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-premium {
+  background-image: url(../images/subscribe_3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px 0;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.subscription-footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
 @media screen and (min-width: 1240px) {
   #main-section {
     display: flex;
@@ -122,7 +194,10 @@ body {
   h2 {
     font-size: 38px;
     line-height: 57px;
-    margin-bottom: 30px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
   }
   .forms, .button {
     max-width: 570px;
@@ -158,6 +233,12 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
   }
+  #page-description > h2 {
+    margin-bottom: 30px;
+  }
+  #page-description > p {
+    margin-bottom: 17px;
+  }
   .name, .Email {
     min-width: 245px;
   }
@@ -166,6 +247,14 @@ body {
   }
   .get-access {
     width: 570px;
+  }
+  #page-pricing {
+    margin: 0 120px;
+  }
+  .subscription-types {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
   }
 }
 @media screen and (max-width: 1239px) {
@@ -176,7 +265,7 @@ body {
   }
   #page-description {
     padding-top: 250px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
   }
   h1 {
     font-size: 30px;
@@ -186,15 +275,20 @@ body {
     font-size: 18px;
     line-height: 27px;
   }
-  p {
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #page-description > p {
     margin-top: 16px;
-    text-align: center;
+    margin-bottom: 17px;
   }
   #page-description > h1 {
     text-align: center;
   }
   .w-1200 {
-    padding: 0 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .menu {
     width: calc(100% - 40px);
@@ -229,6 +323,12 @@ body {
   }
   .button, .get-access {
     width: 100%;
+  }
+  #page-pricing {
+    margin: 0 20px;
+  }
+  .subscription-types > .pricing-item:nth-child(2) {
+    margin: 50px 0;
   }
 }
 

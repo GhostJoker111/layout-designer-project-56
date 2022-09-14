@@ -8,36 +8,32 @@
 .w-1200 {
   width: 1200px;
 }
-
 h1 {
   font-size: 60px;
   line-height: 90px;
 }
-
 h2 {
   font-size: 38px;
   line-height: 57px;
-  margin-bottom: 30px;
 }
-
+h3{
+  font-size: 24px;
+  line-height: 36px;
+}
 .forms, .button {
   max-width:  570px; ;
 }
-
 .search {
   width: 238px;
 }
-
 .menu {
   display: flex;
   width: 1200px;
 }
-
 .col-3 {
   display: flex;
   align-items: center;
 }
-
 .mr-90 {
   margin-right: 90px;
 }
@@ -48,29 +44,40 @@ h2 {
   justify-self: flex-start;
   grid-gap: 24px;
 }
-
 .col-2 a:nth-child(n + 2) {
   color: $p-color;
 }
 .ml-auto{
   margin-left: auto;
 }
-
 #page-description {
 padding-top: 200px;
 padding-bottom: 200px;
 }
-
+#page-description > h2 {
+margin-bottom: 30px;  
+}
+#page-description > p {
+margin-bottom: 17px;
+}
 .name, .Email {
 min-width: 245px;
 }
-
 .Email {
 margin-left: 25px;
 }
-
 .get-access{
   width: 570px;
 }
+#page-pricing {
+  margin: 0 120px;
+}
+.subscription-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+
+
 }
 
