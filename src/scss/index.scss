@@ -1,8 +1,11 @@
 @media screen and (min-width: 1240px) {
-#main-section {
+@mixin flex-center {
   display: flex;
   justify-content: center;
-  @include index-bg-image
+}
+  #main-section {
+  @include flex-center;
+  @include index-bg-image;
 }
 
 .w-1200 {
@@ -70,7 +73,7 @@ margin-left: 25px;
   width: 570px;
 }
 #page-pricing {
-  margin: 0 120px;
+  @include flex-center;
 }
 .subscription-types {
   display: grid;
