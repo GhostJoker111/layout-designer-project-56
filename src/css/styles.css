@@ -104,7 +104,7 @@ body {
   align-items: center;
 }
 
-#page-pricing {
+#page-pricing, #page-news {
   padding-top: 100px;
 }
 
@@ -250,7 +250,7 @@ body {
   .get-access {
     width: 570px;
   }
-  #page-pricing {
+  #page-pricing, #page-news {
     display: flex;
     justify-content: center;
   }

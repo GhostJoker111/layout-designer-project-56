@@ -119,7 +119,7 @@ color: $h-color;
 @mixin p-top {
   padding-top: 100px; ;
 }
-#page-pricing {
+#page-pricing, #page-news {
   @include p-top
 }
 .h-subscription > h2 {
