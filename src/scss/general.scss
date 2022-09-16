@@ -18,23 +18,25 @@
   background-position: center;
   background-size: cover;
 }
-
+a, p, h1, h2, h3 {
+  font-family: "Roboto-Regular";
+}
+p, h1, h2, h3 {
+ color: $h-color; 
+}
 p {
   line-height: 1.5;
-  color: $h-color;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-weight: bold;
-  color: $h-color;
 }
   
 a, p, h1, h2 {
   margin: 0;
-  font-family: "Roboto-Regular";
 }
 h3 {
-  font-family: "Roboto-Regular";
+  font-weight: 400;
 }
 
 a {
@@ -122,8 +124,8 @@ color: $h-color;
   @include p-top
 }
 .h-subscription > h2 {
-text-align: center;
-margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .pricing-item {
   display: flex;
@@ -180,6 +182,9 @@ margin-bottom: 40px;
   margin-top: 40px;
   text-align: center;
 }
-.news-item {
-  display: flex;
+.news-body > p {
+  color: $p-color;
+}
+.w-1200 > .news-item:first-of-type {
+margin-bottom: 65px;
 }

@@ -80,10 +80,13 @@ margin-left: 25px;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
 }
-
-
-
+.news-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
 .news-body > h3 {
+  margin-top: 0;
   font-size: 30px;
   line-height: 45px;
 }
