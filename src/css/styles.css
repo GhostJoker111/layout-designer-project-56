@@ -17,7 +17,6 @@ p {
 
 h1, h2, h3 {
   font-weight: bold;
-  text-transform: uppercase;
   color: #FFFFFF;
 }
 
@@ -178,6 +177,10 @@ body {
   text-align: center;
 }
 
+.news-item {
+  display: flex;
+}
+
 @media screen and (min-width: 1240px) {
   #main-section {
     display: flex;
@@ -259,6 +262,10 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
   }
+  .news-body > h3 {
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 @media screen and (max-width: 1239px) {
   #main-section {
@@ -329,6 +336,13 @@ body {
   }
   .subscription-types > .pricing-item:nth-child(2) {
     margin: 50px 0;
+  }
+  .news-body > h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .news-item {
+    flex-direction: column;
   }
 }
 
