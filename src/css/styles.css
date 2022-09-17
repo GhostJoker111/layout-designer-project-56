@@ -130,10 +130,14 @@ body {
 }
 
 .pricing-footer {
-  font-size: 12.8px;
-  line-height: 19.2px;
   text-align: center;
   margin: 64px 0;
+}
+
+.p-special {
+  font-size: 12.8px;
+  line-height: 19.2px;
+  color: #cacaca;
 }
 
 .pricing-value {
@@ -186,8 +190,37 @@ body {
   color: #cacaca;
 }
 
-.w-1200 > .news-item:first-of-type {
+.w-1200 > .news-item:nth-child(2) {
   margin-bottom: 65px;
+}
+
+.news-author {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: flex-start;
+  column-gap: 16px;
+  margin-bottom: 48px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.news-author > p:nth-child(2) {
+  color: #F89202;
+}
+
+.news-footer > .btn {
+  width: auto;
+  padding: 16px 30px;
+  font-size: 12px;
+  line-height: 19px;
+  border-color: #cacaca;
+  color: #cacaca;
 }
 
 @media screen and (min-width: 1240px) {
@@ -355,6 +388,12 @@ body {
   .news-body > h3 {
     font-size: 16px;
     line-height: 24px;
+  }
+  .news-item > img {
+    width: 100%;
+  }
+  .news-body > h3 {
+    margin: 50px 0 16px;
   }
 }
 
