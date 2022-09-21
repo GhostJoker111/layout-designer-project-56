@@ -97,5 +97,9 @@ margin-left: 25px;
   display: flex;
   justify-content: center;
 }
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 }
 
