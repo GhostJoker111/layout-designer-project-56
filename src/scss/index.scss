@@ -72,7 +72,7 @@ margin-left: 25px;
 .get-access{
   width: 570px;
 }
-#page-pricing, #page-news {
+#page-pricing, #page-news, #page-app, #page-footer {
   @include flex-center;
 }
 .subscription-types {
@@ -89,6 +89,13 @@ margin-left: 25px;
   margin-top: 0;
   font-size: 30px;
   line-height: 45px;
+}
+.mob-text, .mob-img {
+  flex: 1;
+}
+.mob-img {
+  display: flex;
+  justify-content: center;
 }
 }
 

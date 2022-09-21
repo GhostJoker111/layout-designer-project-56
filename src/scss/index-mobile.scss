@@ -3,6 +3,7 @@
   @include index-bg-image
 }
 #page-description {
+  
   padding-top: 250px;
   padding-bottom: 200px;
   }
@@ -21,6 +22,7 @@ h3{
   line-height: 24px;
 }
 #page-description > p {
+  text-align: center;
   margin-top: 16px;
   margin-bottom: 17px;
 }
@@ -87,5 +89,13 @@ h3{
 }
 .news-body > h3 {
   margin: 50px 0 16px;
+}
+.mob-app {
+  flex-direction: column-reverse;
+}
+.mob-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }
 }

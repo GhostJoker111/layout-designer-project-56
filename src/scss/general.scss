@@ -120,7 +120,7 @@ color: $h-color;
 @mixin p-top {
   padding-top: 100px; ;
 }
-#page-pricing, #page-news {
+#page-pricing, #page-news, #page-app {
   @include p-top
 }
 .h-subscription > h2 {
@@ -185,7 +185,7 @@ color: $h-color;
   margin-top: 40px;
   text-align: center;
 }
-.news-body > p {
+.news-body > p, .mob-text > p {
   color: $p-color;
 }
 .w-1200 > .news-item:nth-child(2) { 
@@ -214,4 +214,44 @@ color: $h-color;
   line-height: 19px;
   border-color: $p-color;
   color: $p-color;
+}
+#page-app {
+  margin-bottom: 100px;
+}
+.mob-app {
+  display: flex;
+}
+.mob-text > .btn {
+width: auto;
+margin-top: 15px;
+padding: 16px 40px;
+font-size: 12.8px;
+line-height: 19.2px;
+border: none;
+border-radius: 32px;
+background-color: $b-orange;
+}
+#page-footer {
+background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+.footer-top {
+  padding: 3rem 0;
+}
+.footer-bottom {
+  padding: 2rem 0;
+}
+.header {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+.links {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  text-decoration: none;
+}
+.footer-col > ul {
+  list-style-type: none;
+  padding: 0;
 }
