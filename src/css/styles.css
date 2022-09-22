@@ -264,6 +264,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   font-weight: normal;
+  color: #E0E0E0;
   text-decoration: none;
 }
 
@@ -373,6 +374,7 @@ body {
   .footer-top {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
   }
 }
 @media screen and (max-width: 1239px) {
