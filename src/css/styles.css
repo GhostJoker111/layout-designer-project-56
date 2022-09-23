@@ -286,7 +286,7 @@ body {
 }
 
 @media screen and (min-width: 1240px) {
-  #page-description {
+  .background {
     display: flex;
     justify-content: center;
     background-image: url(../images/banner.png);
@@ -338,7 +338,7 @@ body {
   .ml-auto {
     margin-left: auto;
   }
-  #page-description {
+  .background {
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -399,7 +399,7 @@ body {
   }
 }
 @media screen and (max-width: 1239px) {
-  #page-description {
+  .background {
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
 }
-#page-description {
+.background {
   @include flex-center;
   @include index-bg-image;
 }
@@ -52,7 +52,7 @@ h3{
 .ml-auto{
   margin-left: auto;
 }
-#page-description {
+.background {
 padding-top: 200px;
 padding-bottom: 200px;
 }
