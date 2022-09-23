@@ -3,11 +3,10 @@
   display: flex;
   justify-content: center;
 }
-  #main-section {
+#page-description {
   @include flex-center;
   @include index-bg-image;
 }
-
 .w-1200 {
   width: 1200px;
 }
@@ -57,10 +56,10 @@ h3{
 padding-top: 200px;
 padding-bottom: 200px;
 }
-#page-description > h2 {
+.main-section > h2 {
 margin-bottom: 30px;  
 }
-#page-description > p {
+.main-section > p {
 margin-bottom: 17px;
 }
 .name, .Email {
@@ -97,10 +96,18 @@ margin-left: 25px;
   display: flex;
   justify-content: center;
 }
+#page-footer {
+  flex-direction: column;
+  align-items: center;
+}
 .footer-top {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
 }
+.footer-bottom > ul {
+  display: grid;
+  grid-template-columns: repeat(5, min-content);
+  column-gap: 16px;
 }
-
+}

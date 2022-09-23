@@ -55,7 +55,7 @@ body {
   cursor: pointer;
 }
 
-#page-description {
+.main-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -268,13 +268,25 @@ body {
   text-decoration: none;
 }
 
-.footer-col > ul {
+.footer-col > ul, .footer-bottom > ul {
   list-style-type: none;
   padding: 0;
 }
 
+.footer-col:nth-child(4) > ul {
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  column-gap: 24px;
+}
+
+.footer-line {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #CACACA;
+}
+
 @media screen and (min-width: 1240px) {
-  #main-section {
+  #page-description {
     display: flex;
     justify-content: center;
     background-image: url(../images/banner.png);
@@ -330,10 +342,10 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
   }
-  #page-description > h2 {
+  .main-section > h2 {
     margin-bottom: 30px;
   }
-  #page-description > p {
+  .main-section > p {
     margin-bottom: 17px;
   }
   .name, .Email {
@@ -371,19 +383,28 @@ body {
     display: flex;
     justify-content: center;
   }
+  #page-footer {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer-top {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
   }
+  .footer-bottom > ul {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    column-gap: 16px;
+  }
 }
 @media screen and (max-width: 1239px) {
-  #main-section {
+  #page-description {
     background-image: url(../images/banner.png);
     background-position: center;
     background-size: cover;
   }
-  #page-description {
+  .main-section {
     padding-top: 250px;
     padding-bottom: 200px;
   }
@@ -399,12 +420,12 @@ body {
     font-size: 16px;
     line-height: 24px;
   }
-  #page-description > p {
+  .main-section > p {
     text-align: center;
     margin-top: 16px;
     margin-bottom: 17px;
   }
-  #page-description > h1 {
+  .main-section > h1 {
     text-align: center;
   }
   .w-1200 {
@@ -465,6 +486,14 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
+  }
+  .footer-top {
+    display: grid;
+    row-gap: 14px;
+  }
+  .footer-bottom > ul {
+    display: grid;
+    row-gap: 16px;
   }
 }
 

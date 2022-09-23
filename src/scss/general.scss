@@ -2,17 +2,14 @@
   font-family: "Roboto-Regular";
   src: url(../fonts/Roboto-Regular.ttf);
 }
-
 @font-face {
   font-family: "Roboto-Medium";
   src: url(../fonts/Roboto-Medium.ttf);
 }
-
 @font-face {
   font-family: "Roboto-Bold";
   src: url(../fonts/Roboto-Bold.ttf);
 }
-
 @mixin index-bg-image {
   background-image: url(../images/banner.png);
   background-position: center;
@@ -38,19 +35,16 @@ a, p, h1, h2 {
 h3 {
   font-weight: 400;
 }
-
 a {
 font-size: 11px;
 text-decoration: none;
 line-height: 16.5px;
 color: $h-color;
 }
-
 body {
   margin: 0;
   background-color: $background-color;
 }
-
 .music-box {
   padding: 0;
   margin-right: 16px;
@@ -59,23 +53,19 @@ body {
   border: none;
   cursor: pointer;
 }
-
-#page-description {
+.main-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .menu {
   position: absolute;
   top: 25px;
 }
-
 .forms {
   display: flex;
 }
-
 .search {
   height: 15px;
   background: #3C3B3D;
@@ -83,7 +73,6 @@ body {
   padding: 5px 0 5px 10px;
   border: none;
 }
-
 .name, .Email {
 padding-left: 20px;
 margin-bottom: 1.5rem;
@@ -94,11 +83,9 @@ font-family: "Roboto-Regular";
 font-size: 14px;
 min-height: 45px;
 }
-
 .name::placeholder, .Email::placeholder {
 color: $h-color;
 }
-
 @mixin padlr-20 {
   padding-left: 20px;
   padding-right: 20px;
@@ -116,7 +103,6 @@ color: $h-color;
   display: flex;
   align-items: center;
 }
-
 @mixin p-top {
   padding-top: 100px; ;
 }
@@ -252,7 +238,17 @@ background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   color: #E0E0E0;
   text-decoration: none;
 }
-.footer-col > ul {
+.footer-col > ul, .footer-bottom > ul {
   list-style-type: none;
   padding: 0;
+}
+.footer-col:nth-child(4) > ul {
+  display: grid;
+  grid-template-columns: repeat(4, min-content);
+  column-gap: 24px;
+}
+.footer-line {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #CACACA;
 }
