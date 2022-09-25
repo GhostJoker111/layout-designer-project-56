@@ -10,10 +10,57 @@
   font-family: "Roboto-Bold";
   src: url(../fonts/Roboto-Bold.ttf);
 }
+@media screen and (min-width: 1240px) {
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+}
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+}
+@media screen and (max-width: 1239px) {
+h1 {
+  font-size: 30px;
+  line-height: 45px;
+} 
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+}
+h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+}
 @mixin index-bg-image {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
+}
+.background {
+  @include index-bg-image
+}
+@mixin artist-bg-image {
+  background-image: url('../images/Morten\ Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+.bg-image {
+  @include artist-bg-image
+}
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+@mixin padding-200 {
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 a, p, h1, h2, h3 {
   font-family: "Roboto-Regular";
@@ -63,6 +110,7 @@ body {
   position: absolute;
   top: 25px;
 }
+
 .forms {
   display: flex;
 }
@@ -251,4 +299,29 @@ background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   box-sizing: border-box;
   width: 100%;
   border: 1px solid #CACACA;
+}
+
+//*ARTIST*//
+
+.buttons > .btn {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  border: none;
+  border-radius: 5px;
+}
+.mix {
+  background-color: $b-purple;
+}
+.favorite {
+  background-color: $b-orange;
+}
+.mr-16 {
+  margin-right: 16px;
+}
+.btn > img {
+  filter: invert(1);
 }

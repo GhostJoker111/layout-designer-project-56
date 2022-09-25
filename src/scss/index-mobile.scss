@@ -1,23 +1,8 @@
 @media screen and (max-width: 1239px) {
-.background {
-  @include index-bg-image
-}
 .main-section {
   padding-top: 250px;
   padding-bottom: 200px;
   }
-h1 {
-  font-size: 30px;
-  line-height: 45px;
-} 
-h2 {
-  font-size: 18px;
-  line-height: 27px;
-}
-h3{
-  font-size: 16px;
-  line-height: 24px;
-}
 .main-section > p {
   text-align: center;
   margin-top: 16px;
@@ -38,9 +23,9 @@ h3{
   margin: 18px 0;
 }
 .col-2 a:nth-child(1){
-  color: #E0E0E0;
+  color: $h-color;
 }
-.col-2 a:nth-child(even) {
+.col-2 a:nth-child(n + 2) {
   color: $p-color;
 }
 .search {

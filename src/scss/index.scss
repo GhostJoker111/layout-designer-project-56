@@ -1,26 +1,9 @@
 @media screen and (min-width: 1240px) {
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-}
 .background {
   @include flex-center;
-  @include index-bg-image;
 }
 .w-1200 {
   width: 1200px;
-}
-h1 {
-  font-size: 60px;
-  line-height: 90px;
-}
-h2 {
-  font-size: 38px;
-  line-height: 57px;
-}
-h3{
-  font-size: 24px;
-  line-height: 36px;
 }
 .forms, .button {
   max-width:  570px;
@@ -53,8 +36,7 @@ h3{
   margin-left: auto;
 }
 .background {
-padding-top: 200px;
-padding-bottom: 200px;
+@include padding-200
 }
 .main-section > h2 {
 margin-bottom: 30px;  

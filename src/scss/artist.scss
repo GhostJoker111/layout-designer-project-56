@@ -1,3 +1,19 @@
 @media screen and (min-width: 1240px) {
-    
+  .bg-image {
+    @include flex-center
+  }
+  .artist-main-section {
+    @include padding-200
+  }
+  .artist-main-section > p {
+    margin: 16px 0 48px;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    column-gap: 1.5rem;
+  }
+  #white {
+    color: $h-color ;
+  }
 }

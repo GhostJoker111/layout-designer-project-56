@@ -10,6 +10,46 @@
   font-family: "Roboto-Bold";
   src: url(../fonts/Roboto-Bold.ttf);
 }
+@media screen and (min-width: 1240px) {
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
+  }
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 1239px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.background {
+  background-image: url(../images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image {
+  background-image: url("../images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
 a, p, h1, h2, h3 {
   font-family: "Roboto-Regular";
 }
@@ -285,28 +325,40 @@ body {
   border: 1px solid #CACACA;
 }
 
+.buttons > .btn {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  padding: 20px 30px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  border: none;
+  border-radius: 5px;
+}
+
+.mix {
+  background-color: #5328A1;
+}
+
+.favorite {
+  background-color: #95390C;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.btn > img {
+  filter: invert(1);
+}
+
 @media screen and (min-width: 1240px) {
   .background {
     display: flex;
     justify-content: center;
-    background-image: url(../images/banner.png);
-    background-position: center;
-    background-size: cover;
   }
   .w-1200 {
     width: 1200px;
-  }
-  h1 {
-    font-size: 60px;
-    line-height: 90px;
-  }
-  h2 {
-    font-size: 38px;
-    line-height: 57px;
-  }
-  h3 {
-    font-size: 24px;
-    line-height: 36px;
   }
   .forms, .button {
     max-width: 570px;
@@ -399,26 +451,9 @@ body {
   }
 }
 @media screen and (max-width: 1239px) {
-  .background {
-    background-image: url(../images/banner.png);
-    background-position: center;
-    background-size: cover;
-  }
   .main-section {
     padding-top: 250px;
     padding-bottom: 200px;
-  }
-  h1 {
-    font-size: 30px;
-    line-height: 45px;
-  }
-  h2 {
-    font-size: 18px;
-    line-height: 27px;
-  }
-  h3 {
-    font-size: 16px;
-    line-height: 24px;
   }
   .main-section > p {
     text-align: center;
@@ -441,9 +476,9 @@ body {
     margin: 18px 0;
   }
   .col-2 a:nth-child(1) {
-    color: #E0E0E0;
+    color: #FFFFFF;
   }
-  .col-2 a:nth-child(even) {
+  .col-2 a:nth-child(n+2) {
     color: #cacaca;
   }
   .search {
@@ -494,6 +529,27 @@ body {
   .footer-bottom > ul {
     display: grid;
     row-gap: 16px;
+  }
+}
+@media screen and (min-width: 1240px) {
+  .bg-image {
+    display: flex;
+    justify-content: center;
+  }
+  .artist-main-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .artist-main-section > p {
+    margin: 16px 0 48px;
+  }
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(2, min-content);
+    column-gap: 1.5rem;
+  }
+  #white {
+    color: #FFFFFF;
   }
 }
 
