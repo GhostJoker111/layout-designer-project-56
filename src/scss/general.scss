@@ -325,3 +325,12 @@ background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 .btn > img {
   filter: invert(1);
 }
+a[grey] {
+  color: $p-color;
+}
+.artist-main-section > p {
+  margin: 16px 0 48px;
+}
+.buttons {
+  display: grid;
+}

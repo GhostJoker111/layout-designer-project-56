@@ -22,12 +22,6 @@
   flex-direction: column;
   margin: 18px 0;
 }
-.col-2 a:nth-child(1){
-  color: $h-color;
-}
-.col-2 a:nth-child(n + 2) {
-  color: $p-color;
-}
 .search {
   width: calc(100% - 10px);
 }
