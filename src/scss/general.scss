@@ -341,3 +341,23 @@ a[grey] {
   display: grid;
   gap: 25px 50px;
 }
+.popular-track > h3, .track-info > h3 {
+  margin: 0;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+h3[normal] {
+  font-weight: 400;
+  color: #E0E0E0;
+}
+h3[ml-auto]{
+  margin-left:auto ;
+}
+.popular-track {
+  display: flex;
+  align-items: center;
+}
+.popular-track > img {
+  margin-right: 15px;
+}
