@@ -148,13 +148,13 @@ body {
   align-items: center;
 }
 
-#page-pricing, #page-news, #page-app {
+#page-pricing, #page-news, #page-app, #page-popular-track {
   padding-top: 100px;
 }
 
 .h-subscription > h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .pricing-item {
@@ -364,6 +364,15 @@ a[grey] {
   display: grid;
 }
 
+.p-bottom {
+  padding-bottom: 48px;
+}
+
+.list-of-tracks {
+  display: grid;
+  gap: 25px 50px;
+}
+
 @media screen and (min-width: 1240px) {
   .background {
     display: flex;
@@ -458,6 +467,9 @@ a[grey] {
     grid-template-columns: repeat(5, min-content);
     column-gap: 16px;
   }
+  .list-of-tracks {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 1239px) {
   .main-section {
@@ -546,6 +558,10 @@ a[grey] {
   .buttons {
     grid-template-columns: repeat(2, min-content);
     column-gap: 1.5rem;
+  }
+  #page-popular-track {
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 1239px) {

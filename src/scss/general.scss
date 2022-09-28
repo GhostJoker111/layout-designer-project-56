@@ -154,12 +154,12 @@ color: $h-color;
 @mixin p-top {
   padding-top: 100px; ;
 }
-#page-pricing, #page-news, #page-app {
+#page-pricing, #page-news, #page-app, #page-popular-track {
   @include p-top
 }
 .h-subscription > h2 {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 .pricing-item {
   display: flex;
@@ -333,4 +333,11 @@ a[grey] {
 }
 .buttons {
   display: grid;
+}
+.p-bottom {
+  padding-bottom: 48px;
+}
+.list-of-tracks {
+  display: grid;
+  gap: 25px 50px;
 }

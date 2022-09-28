@@ -89,4 +89,7 @@ margin-left: 25px;
   grid-template-columns: repeat(5, min-content);
   column-gap: 16px;
 }
+.list-of-tracks {
+  grid-template-columns: repeat(2, 1fr);
+}
 }
