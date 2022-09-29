@@ -337,7 +337,7 @@ a[grey] {
 .p-bottom {
   padding-bottom: 48px;
 }
-.list-of-tracks, .list-of-discography {
+.list-of-tracks, .list-of-discography, .list-of-similar-artists {
   display: grid;
   gap: 25px 50px;
 }
@@ -361,6 +361,13 @@ h3[ml-auto]{
 .popular-track > img {
   margin-right: 15px;
 }
-.discography-info > h3 {
+.discography-info > h3, .similar-info > h3 {
   margin-bottom: 0;
+}
+.list-of-discography, .list-of-similar-artists {
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-info {
+  text-align: center;
 }
