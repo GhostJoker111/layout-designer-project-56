@@ -154,7 +154,7 @@ color: $h-color;
 @mixin p-top {
   padding-top: 100px; ;
 }
-#page-pricing, #page-news, #page-app, #page-popular-track {
+#page-pricing, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
   @include p-top
 }
 .h-subscription > h2 {
@@ -219,7 +219,7 @@ color: $h-color;
   margin-top: 40px;
   text-align: center;
 }
-.news-body > p, .mob-text > p {
+.news-body > p, .mob-text > p, .discography-info > p {
   color: $p-color;
 }
 .w-1200 > .news-item:nth-child(2) { 
@@ -249,7 +249,7 @@ color: $h-color;
   border-color: $p-color;
   color: $p-color;
 }
-#page-app {
+#page-app, #page-similar {
   margin-bottom: 100px;
 }
 .mob-app {
@@ -301,7 +301,7 @@ background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   border: 1px solid #CACACA;
 }
 
-//*ARTIST*//
+//*ARTIST PAGE*//
 
 .buttons > .btn {
   display: flex;
@@ -337,7 +337,7 @@ a[grey] {
 .p-bottom {
   padding-bottom: 48px;
 }
-.list-of-tracks {
+.list-of-tracks, .list-of-discography {
   display: grid;
   gap: 25px 50px;
 }
@@ -360,4 +360,7 @@ h3[ml-auto]{
 }
 .popular-track > img {
   margin-right: 15px;
+}
+.discography-info > h3 {
+  margin-bottom: 0;
 }

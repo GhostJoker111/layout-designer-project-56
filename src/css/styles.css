@@ -148,7 +148,7 @@ body {
   align-items: center;
 }
 
-#page-pricing, #page-news, #page-app, #page-popular-track {
+#page-pricing, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
   padding-top: 100px;
 }
 
@@ -226,7 +226,7 @@ body {
   text-align: center;
 }
 
-.news-body > p, .mob-text > p {
+.news-body > p, .mob-text > p, .discography-info > p {
   color: #cacaca;
 }
 
@@ -263,7 +263,7 @@ body {
   color: #cacaca;
 }
 
-#page-app {
+#page-app, #page-similar {
   margin-bottom: 100px;
 }
 
@@ -368,7 +368,7 @@ a[grey] {
   padding-bottom: 48px;
 }
 
-.list-of-tracks {
+.list-of-tracks, .list-of-discography {
   display: grid;
   gap: 25px 50px;
 }
@@ -396,6 +396,10 @@ h3[ml-auto] {
 
 .popular-track > img {
   margin-right: 15px;
+}
+
+.discography-info > h3 {
+  margin-bottom: 0;
 }
 
 @media screen and (min-width: 1240px) {
@@ -584,9 +588,12 @@ h3[ml-auto] {
     grid-template-columns: repeat(2, min-content);
     column-gap: 1.5rem;
   }
-  #page-popular-track {
+  #page-popular-track, #page-discography, #page-similar {
     display: flex;
     justify-content: center;
+  }
+  .list-of-discography {
+    grid-template-columns: repeat(4, min-content);
   }
 }
 @media screen and (max-width: 1239px) {
@@ -595,6 +602,16 @@ h3[ml-auto] {
   }
   .artist-main-section {
     padding: 225px 0;
+  }
+  .discography-item, .discography-item > img {
+    width: 137px;
+  }
+  .discography-item > img {
+    height: 137px;
+  }
+  .list-of-discography {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 

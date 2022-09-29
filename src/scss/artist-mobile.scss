@@ -5,4 +5,14 @@
     .artist-main-section {
         padding: 225px 0;
       }
+      .discography-item, .discography-item > img {
+        width: 137px;
+      }
+      .discography-item > img {
+        height: 137px;
+      }
+      .list-of-discography {
+        display: flex;
+        flex-wrap: wrap;
+      }
 }

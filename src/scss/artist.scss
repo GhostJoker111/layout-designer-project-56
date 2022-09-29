@@ -9,7 +9,10 @@
     grid-template-columns: repeat(2, min-content);
     column-gap: 1.5rem;
   }
-  #page-popular-track {
+  #page-popular-track, #page-discography, #page-similar {
     @include flex-center
+  }
+  .list-of-discography {
+    grid-template-columns: repeat(4, min-content);
   }
 }
