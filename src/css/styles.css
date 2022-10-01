@@ -539,10 +539,6 @@ h3[ml-auto] {
   .menu {
     width: calc(100% - 40px);
   }
-  .col-2 {
-    display: grid;
-    margin: 18px 0;
-  }
   .search {
     width: calc(100% - 10px);
   }
