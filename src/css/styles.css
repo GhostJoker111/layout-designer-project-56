@@ -159,6 +159,11 @@ body {
   color: #FFFFFF;
 }
 
+.col-2 > ul, .footer-col > ul, .footer-bottom > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 #page-pricing, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
   padding-top: 100px;
 }
@@ -319,11 +324,6 @@ body {
   text-decoration: none;
 }
 
-.footer-col > ul, .footer-bottom > ul {
-  list-style-type: none;
-  padding: 0;
-}
-
 .footer-col:nth-child(4) > ul {
   display: grid;
   grid-template-columns: repeat(4, min-content);
@@ -447,11 +447,10 @@ h3[ml-auto] {
   .mr-90 {
     margin-right: 90px;
   }
-  .col-2 {
+  .col-2 > ul {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    align-items: center;
-    justify-self: flex-start;
+    padding: 0;
     grid-gap: 24px;
   }
   .ml-auto {

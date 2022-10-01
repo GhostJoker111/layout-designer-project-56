@@ -113,7 +113,6 @@ body {
   position: absolute;
   top: 25px;
 }
-
 .forms {
   display: flex;
 }
@@ -125,17 +124,17 @@ body {
   border: none;
 }
 .name, .Email {
-padding-left: 20px;
-margin-bottom: 1.5rem;
-border: solid 2px $p-color;
-border-radius: 3px;
-background: transparent;
-font-family: "Roboto-Regular";
-font-size: 14px;
-min-height: 45px;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  border: solid 2px $p-color;
+  border-radius: 3px;
+  background: transparent;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  min-height: 45px;
 }
 .name::placeholder, .Email::placeholder {
-color: $h-color;
+  color: $h-color;
 }
 @mixin padlr-20 {
   padding-left: 20px;
@@ -158,6 +157,10 @@ color: $h-color;
   text-decoration: none;
   line-height: 16.5px;
   color: $h-color;
+}
+.col-2 > ul, .footer-col > ul, .footer-bottom > ul {
+  list-style-type: none;
+  padding: 0;
 }
 @mixin p-top {
   padding-top: 100px; ;
@@ -293,10 +296,6 @@ background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   font-weight: normal;
   color: #E0E0E0;
   text-decoration: none;
-}
-.footer-col > ul, .footer-bottom > ul {
-  list-style-type: none;
-  padding: 0;
 }
 .footer-col:nth-child(4) > ul {
   display: grid;

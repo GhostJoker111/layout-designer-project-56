@@ -22,11 +22,10 @@
 .mr-90 {
   margin-right: 90px;
 }
-.col-2 {
+.col-2 > ul {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  align-items: center;
-  justify-self: flex-start;
+  padding: 0;
   grid-gap: 24px;
 }
 .ml-auto{
