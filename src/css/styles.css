@@ -87,6 +87,7 @@ body {
 }
 
 .music-box {
+  height: 24px;
   padding: 0;
   margin-right: 16px;
   background-color: unset;
