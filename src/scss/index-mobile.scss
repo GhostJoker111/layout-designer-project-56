@@ -17,6 +17,11 @@
 .menu {
   width: calc(100% - 40px);
 }
+.col-2 > ul {
+  margin: 18px 0;
+  width: fit-content;
+  font-size: 0;
+}
 .search {
   width: calc(100% - 10px);
 }
