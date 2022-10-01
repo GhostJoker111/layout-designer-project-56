@@ -83,10 +83,10 @@ h3 {
   font-weight: 400;
 }
 a {
-font-size: 11px;
-text-decoration: none;
-line-height: 16.5px;
-color: $h-color;
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 16.5px;
+  color: $h-color;
 }
 body {
   margin: 0;
@@ -103,8 +103,11 @@ body {
 .main-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+.main-section > h1, .main-section > h2, .main-section > p{
+  width: 100%;
+  text-align: center;
 }
 .menu {
   position: absolute;
@@ -146,10 +149,15 @@ color: $h-color;
   color: $h-color;
   background-color: #34C176;
 }
-
 .col-1 {
   display: flex;
   align-items: center;
+}
+.col-1 > p {
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 16.5px;
+  color: $h-color;
 }
 @mixin p-top {
   padding-top: 100px; ;
@@ -219,7 +227,7 @@ color: $h-color;
   margin-top: 40px;
   text-align: center;
 }
-.news-body > p, .mob-text > p, .discography-info > p {
+.news-body > p, .mob-text > p, .discography-info > p, .similar-info > p {
   color: $p-color;
 }
 .w-1200 > .news-item:nth-child(2) { 

@@ -98,8 +98,12 @@ body {
 .main-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.main-section > h1, .main-section > h2, .main-section > p {
+  width: 100%;
+  text-align: center;
 }
 
 .menu {
@@ -146,6 +150,13 @@ body {
 .col-1 {
   display: flex;
   align-items: center;
+}
+
+.col-1 > p {
+  font-size: 11px;
+  text-decoration: none;
+  line-height: 16.5px;
+  color: #FFFFFF;
 }
 
 #page-pricing, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
@@ -226,7 +237,7 @@ body {
   text-align: center;
 }
 
-.news-body > p, .mob-text > p, .discography-info > p {
+.news-body > p, .mob-text > p, .discography-info > p, .similar-info > p {
   color: #cacaca;
 }
 
@@ -609,7 +620,7 @@ h3[ml-auto] {
   .artist-main-section {
     padding: 225px 0;
   }
-  .discography-item, .discography-item > img {
+  .discography-item, .discography-item > img, .similar-item, .similar-item > img {
     width: 137px;
   }
   .discography-item > img {
