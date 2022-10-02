@@ -102,7 +102,7 @@ body {
   align-items: center;
 }
 
-.main-section > h1, .main-section > h2, .main-section > p {
+.text-center {
   width: 100%;
   text-align: center;
 }
