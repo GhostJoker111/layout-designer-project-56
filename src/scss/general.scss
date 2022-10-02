@@ -265,7 +265,7 @@ body {
   margin-bottom: 100px;
 }
 .mob-app {
-  display: flex;
+  column-count: 2;
 }
 .mob-text > .btn {
 width: auto;
