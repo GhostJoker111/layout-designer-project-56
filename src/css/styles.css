@@ -256,7 +256,7 @@ body {
   grid-template-columns: repeat(3, auto);
   justify-content: flex-start;
   column-gap: 16px;
-  margin-bottom: 48px;
+  margin-bottom: 64px;
 }
 
 .mt-25 {
