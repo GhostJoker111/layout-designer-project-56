@@ -194,7 +194,6 @@ body {
 .p-special {
   font-size: 12.8px;
   line-height: 19.2px;
-  color: #cacaca;
 }
 
 .pricing-value {
@@ -257,6 +256,10 @@ body {
   justify-content: flex-start;
   column-gap: 16px;
   margin-bottom: 64px;
+}
+
+.news-author > p:nth-child(3) {
+  color: #cacaca;
 }
 
 .mt-25 {

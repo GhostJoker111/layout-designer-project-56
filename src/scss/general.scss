@@ -190,7 +190,6 @@ body {
 .p-special {
   font-size: 12.8px;
   line-height: 19.2px;
-  color: $p-color;
 }  
 .pricing-value {
   font-size: 64px;
@@ -243,6 +242,9 @@ body {
   justify-content: flex-start;
   column-gap: 16px;
   margin-bottom: 64px;
+}
+.news-author > p:nth-child(3) {
+  color: $p-color;
 }
 .mt-25 {
   margin-top: 25px;
