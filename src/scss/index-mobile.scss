@@ -1,6 +1,6 @@
 @media screen and (max-width: 1239px) {
 .main-section {
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 200px;
   }
 .main-section > p {
@@ -9,7 +9,7 @@
   margin-bottom: 17px;
 }
 .main-section > h1 {
-  text-align: center;
+  margin-top: 3rem;
 }
 .w-1200 {
 @include padlr-20

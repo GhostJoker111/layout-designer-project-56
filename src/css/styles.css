@@ -525,7 +525,7 @@ h3[ml-auto] {
 }
 @media screen and (max-width: 1239px) {
   .main-section {
-    padding-top: 250px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   .main-section > p {
@@ -534,7 +534,7 @@ h3[ml-auto] {
     margin-bottom: 17px;
   }
   .main-section > h1 {
-    text-align: center;
+    margin-top: 3rem;
   }
   .w-1200 {
     padding-left: 20px;
