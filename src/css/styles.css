@@ -165,7 +165,7 @@ body {
   padding: 0;
 }
 
-#page-pricing-structure, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
+#page-pricing-structure, #page-news-structure, #page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
   padding-top: 100px;
 }
 
@@ -429,7 +429,9 @@ h3[ml-auto] {
 @media screen and (min-width: 1240px) {
   .background {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
   }
   .w-1200 {
     width: 1200px;
@@ -479,9 +481,11 @@ h3[ml-auto] {
   .get-access {
     width: 570px;
   }
-  #page-pricing-structure, #page-news, #page-app, #page-footer {
+  #page-pricing-structure, #page-news-structure, #page-app-structure, #page-footer-structure {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
   }
   .subscription-types {
     display: grid;
@@ -506,6 +510,7 @@ h3[ml-auto] {
     justify-content: center;
   }
   #page-footer {
+    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -607,7 +612,9 @@ h3[ml-auto] {
 @media screen and (min-width: 1240px) {
   .bg-image {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
   }
   .artist-main-section {
     padding-top: 200px;
@@ -619,7 +626,9 @@ h3[ml-auto] {
   }
   #page-popular-track, #page-discography, #page-similar {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
   }
 }
 @media screen and (max-width: 1239px) {

@@ -56,7 +56,9 @@ h3 {
 }
 @mixin flex-center {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
 @mixin padding-200 {
   padding-top: 200px;
@@ -166,7 +168,7 @@ body {
 @mixin p-top {
   padding-top: 100px; ;
 }
-#page-pricing-structure, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
+#page-pricing-structure, #page-news-structure, #page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
   @include p-top
 }
 .h-subscription > h2 {

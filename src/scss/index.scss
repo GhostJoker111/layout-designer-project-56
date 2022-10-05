@@ -49,7 +49,7 @@ margin-left: 25px;
 .get-access{
   width: 570px;
 }
-#page-pricing-structure, #page-news, #page-app, #page-footer {
+#page-pricing-structure, #page-news-structure, #page-app-structure, #page-footer-structure {
   @include flex-center;
 }
 .subscription-types {
@@ -75,6 +75,7 @@ margin-left: 25px;
   justify-content: center;
 }
 #page-footer {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
