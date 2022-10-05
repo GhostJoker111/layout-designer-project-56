@@ -169,6 +169,10 @@ body {
   padding-top: 100px;
 }
 
+.h-subscription {
+  width: 100%;
+}
+
 .h-subscription > h2 {
   text-align: center;
   margin-bottom: 48px;

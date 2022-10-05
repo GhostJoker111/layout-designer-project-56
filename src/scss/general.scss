@@ -171,6 +171,9 @@ body {
 .page-pricing-structure, #page-news-structure, #page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
   @include p-top
 }
+.h-subscription {
+  width: 100%;
+}
 .h-subscription > h2 {
   text-align: center;
   margin-bottom: 48px;
