@@ -165,7 +165,7 @@ body {
   padding: 0;
 }
 
-#page-pricing, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
+#page-pricing-structure, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
   padding-top: 100px;
 }
 
@@ -479,7 +479,7 @@ h3[ml-auto] {
   .get-access {
     width: 570px;
   }
-  #page-pricing, #page-news, #page-app, #page-footer {
+  #page-pricing-structure, #page-news, #page-app, #page-footer {
     display: flex;
     justify-content: center;
   }

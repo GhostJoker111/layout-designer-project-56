@@ -166,7 +166,7 @@ body {
 @mixin p-top {
   padding-top: 100px; ;
 }
-#page-pricing, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
+#page-pricing-structure, #page-news, #page-app, #page-popular-track, #page-discography, #page-similar {
   @include p-top
 }
 .h-subscription > h2 {
