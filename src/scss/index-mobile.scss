@@ -9,7 +9,7 @@
   margin-bottom: 17px;
 }
 .main-section > h1 {
-  margin-top: 3.1rem;
+  margin-top: 3rem;
 }
 .w-1200 {
 @include padlr-20
@@ -18,9 +18,10 @@
   width: calc(100% - 40px);
 }
 .col-2 > ul {
-  margin: 18px 0;
+  margin: 16px 0;
   width: fit-content;
   font-size: 0;
+  font-weight: bold;
 }
 .search {
   width: calc(100% - 10px);
