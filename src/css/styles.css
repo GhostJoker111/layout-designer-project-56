@@ -170,7 +170,7 @@ body {
   padding: 0;
 }
 
-.page-pricing-structure, #page-news-structure, #page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
+.page-pricing-structure, .page-news-structure, .page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
   padding-top: 100px;
 }
 
@@ -344,6 +344,7 @@ body {
 }
 
 .footer-line {
+  margin: 0;
   box-sizing: border-box;
   width: 100%;
   border: 1px solid #CACACA;
@@ -490,7 +491,7 @@ h3[ml-auto] {
   .get-access {
     width: 570px;
   }
-  .page-pricing-structure, #page-news-structure, #page-app-structure, #page-footer-structure {
+  .page-pricing-structure, .page-news-structure, .page-app-structure, #page-footer-structure {
     display: flex;
     flex-direction: column;
     align-items: center;

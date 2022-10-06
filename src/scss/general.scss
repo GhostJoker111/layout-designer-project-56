@@ -168,7 +168,7 @@ body {
 @mixin p-top {
   padding-top: 100px; ;
 }
-.page-pricing-structure, #page-news-structure, #page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
+.page-pricing-structure, .page-news-structure, .page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
   @include p-top
 }
 .h-subscription {
@@ -311,6 +311,7 @@ background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   column-gap: 24px;
 }
 .footer-line {
+  margin: 0;
   box-sizing: border-box;
   width: 100%;
   border: 1px solid #CACACA;
