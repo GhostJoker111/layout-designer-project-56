@@ -275,6 +275,11 @@ body {
   margin-top: 25px;
 }
 
+.subscription-types {
+  display: grid;
+  grid-gap: 50px;
+}
+
 .mt-15 {
   margin-top: 15px;
 }
@@ -504,9 +509,7 @@ h3[ml-auto] {
     margin: auto;
   }
   .subscription-types {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
   }
   .news-item {
     display: grid;
@@ -585,9 +588,6 @@ h3[ml-auto] {
   }
   .button, .get-access {
     width: 100%;
-  }
-  .subscription-types > .pricing-item:nth-child(2) {
-    margin: 50px 0;
   }
   .news-body > h3 {
     font-size: 16px;

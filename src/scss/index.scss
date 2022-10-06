@@ -53,9 +53,7 @@ margin-left: 25px;
   @include flex-center;
 }
 .subscription-types {
-  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
 }
 .news-item {
   display: grid;
