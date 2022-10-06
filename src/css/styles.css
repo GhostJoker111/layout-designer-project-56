@@ -289,7 +289,8 @@ body {
 }
 
 .news-footer > .btn {
-  width: auto;
+  display: block;
+  width: max-content;
   padding: 16px 30px;
   font-size: 12px;
   line-height: 19px;
