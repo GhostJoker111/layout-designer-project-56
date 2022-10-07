@@ -273,7 +273,7 @@ body {
   border-color: $p-color;
   color: $p-color;
 }
-#page-app, #page-similar {
+section[mobile-app], #page-similar {
   margin-bottom: 100px;
 }
 .mob-app {
