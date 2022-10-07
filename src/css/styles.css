@@ -299,7 +299,7 @@ body {
 }
 
 #page-app, #page-similar {
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .mob-app {
