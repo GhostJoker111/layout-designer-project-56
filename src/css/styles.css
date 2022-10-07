@@ -303,6 +303,7 @@ section[mobile-app], #page-similar {
 }
 
 .mob-app {
+  display: flex;
   column-count: 2;
 }
 
