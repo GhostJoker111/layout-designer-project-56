@@ -310,11 +310,9 @@ section[mobile-app], #page-similar {
   margin: 16px 0;
 }
 
-div[btn-container] {
-  margin-top: 32px;
-}
-
-div[btn-container] > .btn {
+.mob-text > .btn {
+  display: block;
+  width: max-content;
   padding: 16px 40px;
   font-size: 12.8px;
   line-height: 19.2px;
