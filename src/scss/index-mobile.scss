@@ -66,12 +66,19 @@ flex-direction: column-reverse;
   display: grid;
   row-gap: 14px;
 }
+.footer-top > .footer-col:first-child {
+  margin-top: 15px;
+}
+.footer-top > .footer-col:nth-child(4) {
+  margin-top: 16px;
+}
 .footer-bottom > ul {
+  margin-top: 0;
+  margin-right: 16px;
   display: grid;
   row-gap: 16px;
 }
-div[mb-15] > .links:nth-child(4) {
+.footer-bottom > ul > li > .links {
   display: block;
-  margin-bottom: 15px;
 }
 }
