@@ -545,7 +545,8 @@ h3[ml-auto] {
     margin-top: 15px;
   }
   .footer-bottom > ul {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 16px;
     display: grid;
     grid-template-columns: repeat(5, min-content);
     column-gap: 16px;
