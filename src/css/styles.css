@@ -645,8 +645,8 @@ h3[ml-auto] {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
+    padding-bottom: 223px;
   }
   .buttons {
     grid-template-columns: repeat(2, min-content);

@@ -1,7 +1,8 @@
 @media screen and (min-width: 1240px) {
   .bg-image {
     @include flex-center;
-    @include padding-200;
+    padding-top: 250px;
+    padding-bottom: 223px;
   }
   .buttons {
     grid-template-columns: repeat(2, min-content);
