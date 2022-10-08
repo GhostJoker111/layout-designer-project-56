@@ -273,7 +273,7 @@ body {
   border-color: $p-color;
   color: $p-color;
 }
-section[mobile-app], #page-similar {
+section[mobile-app], section[similar] > #page-similar {
   margin-bottom: 100px;
 }
 .mob-app {
@@ -329,7 +329,9 @@ div[mb-15] > .header {
 }
 
 //*ARTIST PAGE*//
-
+#page-popular-track, #page-discography, #page-similar {
+  padding-top: 100px;
+}
 .buttons > .btn {
   display: flex;
   align-items: center;
