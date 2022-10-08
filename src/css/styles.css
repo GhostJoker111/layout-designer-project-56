@@ -340,6 +340,10 @@ section[mobile-app], #page-similar {
   font-weight: bold;
 }
 
+div[mb-15] > .header {
+  margin-bottom: 15px;
+}
+
 .links {
   font-size: 16px;
   line-height: 24px;
@@ -535,9 +539,13 @@ h3[ml-auto] {
   .footer-top {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 20px;
+    column-gap: 40px;
+  }
+  .header {
+    margin-top: 15px;
   }
   .footer-bottom > ul {
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(5, min-content);
     column-gap: 16px;
@@ -617,6 +625,10 @@ h3[ml-auto] {
   .footer-bottom > ul {
     display: grid;
     row-gap: 16px;
+  }
+  div[mb-15] > .links:nth-child(4) {
+    display: block;
+    margin-bottom: 15px;
   }
 }
 @media screen and (min-width: 1240px) {

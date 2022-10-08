@@ -80,9 +80,13 @@ margin-left: 25px;
 .footer-top {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 20px;
+  column-gap: 40px;
+}
+.header {
+  margin-top: 15px;
 }
 .footer-bottom > ul {
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(5, min-content);
   column-gap: 16px;
