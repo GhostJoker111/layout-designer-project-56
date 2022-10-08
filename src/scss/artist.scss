@@ -1,15 +1,13 @@
 @media screen and (min-width: 1240px) {
   .bg-image {
-    @include flex-center
-  }
-  .artist-main-section {
-    @include padding-200
+    @include flex-center;
+    @include padding-200;
   }
   .buttons {
     grid-template-columns: repeat(2, min-content);
     column-gap: 1.5rem;
   }
   #page-popular-track, #page-discography, #page-similar {
-    @include flex-center
+    @include flex-center;
   }
 }
