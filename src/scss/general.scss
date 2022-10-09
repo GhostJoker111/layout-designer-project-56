@@ -400,6 +400,7 @@ h3[ml-auto]{
 .similar-info {
   text-align: center;
 }
-.discography-item > img {
-  margin-bottom: 18px;
-}
+.discography-item, .similar-item {
+  display: grid;
+  row-gap: 18px;
+ }
