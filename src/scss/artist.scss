@@ -13,4 +13,7 @@
     flex-direction: column;
     margin: auto;
   }
+  .list-of-tracks {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

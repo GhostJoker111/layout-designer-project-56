@@ -555,9 +555,6 @@ h3[ml-auto] {
     grid-template-columns: repeat(5, min-content);
     column-gap: 16px;
   }
-  .list-of-tracks {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
 @media screen and (max-width: 1239px) {
   .main-section {
@@ -660,6 +657,9 @@ h3[ml-auto] {
     display: flex;
     flex-direction: column;
     margin: auto;
+  }
+  .list-of-tracks {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 1239px) {
