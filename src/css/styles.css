@@ -442,7 +442,7 @@ h3[ml-auto] {
 }
 
 .discography-info > h3, .similar-info > h3 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .list-of-discography, .list-of-similar-artists {
@@ -452,6 +452,10 @@ h3[ml-auto] {
 
 .similar-info {
   text-align: center;
+}
+
+.discography-item > img {
+  margin-bottom: 18px;
 }
 
 @media screen and (min-width: 1240px) {

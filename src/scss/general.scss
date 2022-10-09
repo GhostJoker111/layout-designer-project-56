@@ -391,7 +391,7 @@ h3[ml-auto]{
   margin-right: 15px;
 }
 .discography-info > h3, .similar-info > h3 {
-  margin-bottom: 0;
+  margin: 0;
 }
 .list-of-discography, .list-of-similar-artists {
   display: flex;
@@ -399,4 +399,7 @@ h3[ml-auto]{
 }
 .similar-info {
   text-align: center;
+}
+.discography-item > img {
+  margin-bottom: 18px;
 }
