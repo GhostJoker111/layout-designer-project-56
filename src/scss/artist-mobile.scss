@@ -1,12 +1,15 @@
 @media screen and (max-width: 1239px) {
-    .buttons {
-        row-gap: 1.5rem;
-    }
-    .artist-main-section {
-        padding: 225px 0;
-      }
-      .discography-item > img {
-        height: 137px;
-        width: 137px;
-      }
+  .buttons {
+    row-gap: 1.5rem;
+  }
+  .artist-main-section {
+    padding: 225px 0;
+  }
+  .discography-item {
+   width: 137px;
+  }
+  .discography-item > img {
+    height: 137px;
+    width: 137px;
+  }
 }
