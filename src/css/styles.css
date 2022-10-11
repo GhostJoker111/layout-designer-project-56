@@ -126,12 +126,13 @@ body {
 
 .name, .Email {
   margin-bottom: 1.5rem;
-  padding-left: 20px;
+  padding: 0 0 0 20px;
   border: solid 2px #cacaca;
   border-radius: 3px;
   background: transparent;
   font-family: "Roboto-Regular";
   font-size: 14px;
+  line-height: 16.41px;
   min-height: 45px;
 }
 
