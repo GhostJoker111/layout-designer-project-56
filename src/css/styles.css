@@ -478,6 +478,7 @@ h3[ml-auto] {
   }
   .menu {
     display: flex;
+    align-items: flex-start;
     width: 1200px;
   }
   .col-3 {
@@ -490,7 +491,7 @@ h3[ml-auto] {
   .col-2 > ul {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    padding: 0;
+    margin: 0;
     grid-gap: 24px;
   }
   .ml-auto {
