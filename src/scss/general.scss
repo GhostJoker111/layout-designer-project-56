@@ -127,8 +127,8 @@ body {
   border: none;
 }
 .name, .Email {
-  padding-left: 20px;
   margin-bottom: 1.5rem;
+  padding: 0 0 0 20px;
   border: solid 2px $p-color;
   border-radius: 3px;
   background: transparent;
