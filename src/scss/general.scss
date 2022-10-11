@@ -253,14 +253,14 @@ body {
   color: $p-color;
 }
 .mt-25 {
-  margin-top: 25px;
+  margin-top: 23px;
 }
 .subscription-types {
   display: grid;
   grid-gap: 50px;
 }
-.mt-15 {
-  margin-top: 15px;
+.mt-13 {
+  margin-top: 13px;
 }
 .news-author > p:nth-child(2) {
   color: $t-orange;
@@ -268,7 +268,7 @@ body {
 .news-footer > .btn {
   display: block;
   width: max-content;
-  padding: 16px 30px;
+  padding: 16px 32px;
   font-size: 12px;
   line-height: 19px;
   border-color: $p-color;
