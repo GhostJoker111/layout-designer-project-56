@@ -273,7 +273,7 @@ body {
 }
 
 .mt-25 {
-  margin-top: 23px;
+  margin-top: 25px;
 }
 
 .subscription-types {
@@ -281,8 +281,8 @@ body {
   grid-gap: 50px;
 }
 
-.mt-13 {
-  margin-top: 13px;
+.mt-15 {
+  margin-top: 15px;
 }
 
 .news-author > p:nth-child(2) {
@@ -292,7 +292,7 @@ body {
 .news-footer > .btn {
   display: block;
   width: max-content;
-  padding: 16px 32px;
+  padding: 16px 30px;
   font-size: 12px;
   line-height: 19px;
   border-color: #cacaca;
