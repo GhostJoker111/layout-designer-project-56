@@ -53,9 +53,10 @@ flex-direction: column-reverse;
 }
 .news-item > img {
   width: 100%;
+  vertical-align: middle;
 }
 .news-body > h3 {
-  margin: 48px 0 16px;
+  margin: 50px 0 16px;
 }
 .mob-app {
   display: flex;

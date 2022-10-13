@@ -207,20 +207,17 @@ body {
   line-height: 48px;
   vertical-align: top;
 }
+.bg-free, .bg-standart, .bg-premium {
+  background-size: cover;
+}
 .bg-free {
   background-image: url(../images/subscribe_1.png);
-  background-position: center;
-  background-size: cover;
 }
 .bg-standart {
   background-image: url(../images/subscribe_2.png);
-  background-position: center;
-  background-size: cover;
 }
 .bg-premium {
   background-image: url(../images/subscribe_3.png);
-  background-position: center;
-  background-size: cover;
 }
 .btn {
   width: 100%;
@@ -252,15 +249,15 @@ body {
 .news-author > p:nth-child(3) {
   color: $p-color;
 }
-.mt-25 {
-  margin-top: 25px;
+.mt-24 {
+  margin-top: 24px;
 }
 .subscription-types {
   display: grid;
   grid-gap: 50px;
 }
-.mt-15 {
-  margin-top: 15px;
+.mt-16 {
+  margin-top: 16px;
 }
 .news-author > p:nth-child(2) {
   color: $t-orange;
