@@ -468,9 +468,6 @@ h3[ml-auto] {
   .w-1200 {
     width: 1200px;
   }
-  .forms, .button {
-    max-width: 570px;
-  }
   .search {
     width: 238px;
   }
@@ -509,7 +506,7 @@ h3[ml-auto] {
     min-width: 245px;
   }
   .Email {
-    margin-left: 25px;
+    margin-left: 28px;
   }
   .get-access {
     width: 570px;
