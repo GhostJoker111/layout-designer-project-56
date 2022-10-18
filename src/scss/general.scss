@@ -1,70 +1,70 @@
 @font-face {
   font-family: Roboto-Regular;
-  src: url('../fonts/Roboto-Regular.ttf');
+  src: url("../fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: Roboto-Medium;
-  src: url('../fonts/Roboto-Medium.ttf');
+  src: url("../fonts/Roboto-Medium.ttf");
 }
 
 @font-face {
   font-family: Roboto-Bold;
-  src: url('../fonts/Roboto-Bold.ttf');
+  src: url("../fonts/Roboto-Bold.ttf");
 }
 
 @media screen and (min-width: 1240px) {
   h1 {
     font-size: 60px;
     line-height: 90px;
-}
+  }
 
   h2 {
     font-size: 38px;
     line-height: 57px;
-}
+  }
 
   h3 {
     font-size: 24px;
     line-height: 36px;
-}
+  }
 }
 
 @media screen and (max-width: 1239px) {
-h1 {
-  font-size: 30px;
-  line-height: 45px;
-} 
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+  } 
 
-h2 {
-  font-size: 18px;
-  line-height: 27px;
-}
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+  }
 
-h3 {
-  font-size: 16px;
-  line-height: 24px;
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
 }
 }
 
 @mixin index-bg-image {
-  background-image: url(../images/banner.png);
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
 
 .background {
-  @include index-bg-image
+  @include index-bg-image;
 }
 
 @mixin artist-bg-image {
-  background-image: url('../images/Morten\ Harket.png');
+  background-image: url("../images/Morten\ Harket.png");
   background-position: center;
   background-size: cover;
 }
 
 .bg-image {
-  @include artist-bg-image
+  @include artist-bg-image;
 }
 
 @mixin flex-center {
@@ -79,16 +79,12 @@ h3 {
   padding-bottom: 200px;
 }
 
-a {
-  font-family: Roboto-Regular;
-}
-
 p,
 h1,
 h2,
 h3 {
   font-family: Roboto-Regular;
-  color: $h-color; 
+  color: $h-color;
 }
 
 p {
@@ -99,7 +95,7 @@ h1,
 h2 {
   font-weight: bold;
 }
-  
+
 a,
 p,
 h1,
@@ -112,6 +108,7 @@ h3 {
 }
 
 a {
+  font-family: Roboto-Regular;
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;

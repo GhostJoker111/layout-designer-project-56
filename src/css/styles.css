@@ -39,7 +39,7 @@
   }
 }
 .background {
-  background-image: url(../images/banner.png);
+  background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
 }
@@ -48,10 +48,6 @@
   background-image: url("../images/Morten Harket.png");
   background-position: center;
   background-size: cover;
-}
-
-a {
-  font-family: Roboto-Regular;
 }
 
 p,
@@ -83,6 +79,7 @@ h3 {
 }
 
 a {
+  font-family: Roboto-Regular;
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;
