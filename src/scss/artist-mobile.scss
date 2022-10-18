@@ -2,16 +2,18 @@
   .buttons {
     row-gap: 1.5rem;
   }
+
   .artist-main-section {
-    
     padding: 225px 0;
   }
+
   .discography-item,
   .similar-item {
     width: 137px;
     display: grid;
     row-gap: 18px;
   }
+  
   .discography-item > img,
   .similar-item > img {
     height: 137px;

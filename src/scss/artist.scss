@@ -4,15 +4,20 @@
     padding-top: 250px;
     padding-bottom: 223px;
   }
+
   .buttons {
     grid-template-columns: repeat(2, min-content);
     column-gap: 1.5rem;
   }
-  #page-popular-track, #page-discography, #page-similar {
+
+  #page-popular-track, 
+  #page-discography, 
+  #page-similar {
     display: flex;
     flex-direction: column;
     margin: auto;
   }
+
   .list-of-tracks {
     grid-template-columns: repeat(2, 1fr);
   }

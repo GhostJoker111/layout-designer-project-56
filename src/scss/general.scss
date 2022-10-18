@@ -2,98 +2,124 @@
   font-family: "Roboto-Regular";
   src: url(../fonts/Roboto-Regular.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Medium";
   src: url(../fonts/Roboto-Medium.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Bold";
   src: url(../fonts/Roboto-Bold.ttf);
 }
+
 @media screen and (min-width: 1240px) {
 h1 {
   font-size: 60px;
   line-height: 90px;
 }
+
 h2 {
   font-size: 38px;
   line-height: 57px;
 }
+
 h3 {
   font-size: 24px;
   line-height: 36px;
 }
 }
+
 @media screen and (max-width: 1239px) {
 h1 {
   font-size: 30px;
   line-height: 45px;
 } 
+
 h2 {
   font-size: 18px;
   line-height: 27px;
 }
+
 h3 {
   font-size: 16px;
   line-height: 24px;
 }
 }
+
 @mixin index-bg-image {
   background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
 }
+
 .background {
   @include index-bg-image
 }
+
 @mixin artist-bg-image {
   background-image: url('../images/Morten\ Harket.png');
   background-position: center;
   background-size: cover;
 }
+
 .bg-image {
   @include artist-bg-image
 }
+
 @mixin flex-center {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
 }
+
 @mixin padding-200 {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-a, p, h1, h2, h3 {
+
+a {
   font-family: "Roboto-Regular";
 }
+
 p, h1, h2, h3 {
- color: $h-color; 
+  font-family: "Roboto-Regular";
+  color: $h-color; 
 }
+
 p {
   line-height: 1.5;
 }
 
-h1, h2 {
+h1, 
+h2 {
   font-weight: bold;
 }
   
-a, p, h1, h2 {
+a, 
+p, 
+h1, 
+h2 {
   margin: 0;
 }
+
 h3 {
   font-weight: 400;
 }
+
 a {
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;
   color: $h-color;
 }
+
 body {
   margin: 0;
   background-color: $background-color;
 }
+
 .music-box {
   height: 24px;
   padding: 0;
@@ -103,22 +129,27 @@ body {
   border: none;
   cursor: pointer;
 }
+
 .main-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .text-center{
   width: 100%;
   text-align: center;
 }
+
 .menu {
   position: absolute;
   top: 25px;
 }
+
 .forms {
   display: flex;
 }
+
 .search {
   height: 15px;
   background: #3C3B3D;
@@ -126,7 +157,9 @@ body {
   padding: 5px 0 5px 10px;
   border: none;
 }
-.name, .Email {
+
+.name, 
+.Email {
   margin-bottom: 1.5rem;
   padding:0 0 0 20px;
   border: solid 2px $p-color;
@@ -137,13 +170,17 @@ body {
   line-height: 16.41px;
   min-height: 45px;
 }
-.name::placeholder, .Email::placeholder {
+
+.name::placeholder, 
+.Email::placeholder {
   color: $h-color;
 }
+
 .w-1200 {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .get-access {
   padding: 20px 0;
   border: none;
@@ -152,33 +189,48 @@ body {
   color: $h-color;
   background-color: #34C176;
 }
+
 .col-1 {
   display: flex;
   align-items: center;
 }
+
 .col-1 > p {
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;
   color: $h-color;
 }
-.col-2 > ul, .footer-col > ul, .footer-bottom > ul {
+
+.col-2 > ul, 
+.footer-col > ul, 
+.footer-bottom > ul {
   list-style-type: none;
   padding: 0;
 }
+
 @mixin p-top {
   padding-top: 100px; ;
 }
-.page-pricing-structure, .page-news-structure, .page-app-structure, #page-popular-track-structure, #page-discography-structure, #page-similar-structure {
+
+.page-pricing-structure, 
+.page-news-structure, 
+.page-app-structure, 
+#page-popular-track-structure, 
+#page-discography-structure, 
+#page-similar-structure {
   @include p-top
 }
+
 .h-subscription {
   width: 100%;
 }
+
 .h-subscription > h2 {
   text-align: center;
   margin-bottom: 48px;
 }
+
 .pricing-item {
   display: flex;
   flex-direction: column;
@@ -186,39 +238,51 @@ body {
   padding: 0 1.5rem;
   border-radius: 1rem;
 }
+
 .pricing-item > h3 {
   margin-bottom: 200px;
 }
+
 .pricing-footer {
   text-align: center;
   margin: 64px 0;
 }
+
 .p-special {
   font-size: 12.8px;
   line-height: 19.2px;
 }  
+
 .pricing-value {
   font-size: 64px;
   line-height: 64px;
   margin-bottom: 40px;
 }
+
 .rub {
   font-size: 32px;
   line-height: 48px;
   vertical-align: top;
 }
-.bg-free, .bg-standart, .bg-premium {
+
+.bg-free, 
+.bg-standart, 
+.bg-premium {
   background-size: cover;
 }
+
 .bg-free {
   background-image: url(../images/subscribe_1.png);
 }
+
 .bg-standart {
   background-image: url(../images/subscribe_2.png);
 }
+
 .bg-premium {
   background-image: url(../images/subscribe_3.png);
 }
+
 .btn {
   width: 100%;
   padding: 20px 0;
@@ -229,16 +293,23 @@ body {
   background-color: transparent;
   color: #FFFFFF;
 }
+
 .subscription-footer {
   margin-top: 40px;
   text-align: center;
 }
-.news-body > p, .mob-text > p, .discography-info > p, .similar-info > p {
+
+.news-body > p, 
+.mob-text > p, 
+.discography-info > p, 
+.similar-info > p {
   color: $p-color;
 }
+
 .w-1200 > .news-item:nth-child(2) { 
   margin-bottom: 64px;
 }
+
 .news-author {
   display: grid;
   grid-template-columns: repeat(3,auto);
@@ -246,22 +317,28 @@ body {
   column-gap: 16px;
   margin-bottom: 48px;
 }
+
 .news-author > p:nth-child(3) {
   color: $p-color;
 }
+
 .mt-24 {
   margin-top: 24px;
 }
+
 .subscription-types {
   display: grid;
   grid-gap: 50px;
 }
+
 .mt-16 {
   margin-top: 16px;
 }
+
 .news-author > p:nth-child(2) {
   color: $t-orange;
 }
+
 .news-footer > .btn {
   display: block;
   width: max-content;
@@ -271,16 +348,21 @@ body {
   border-color: $p-color;
   color: $p-color;
 }
-section[mobile-app], section[similar] > #page-similar {
+
+section[mobile-app], 
+section[similar] > #page-similar {
   margin-bottom: 100px;
 }
+
 .mob-app {
   display: flex;
   column-count: 2;
 }
+
 .mob-text > p {
   margin: 16px 0;
 }
+
 .mob-text > .btn {
   display: block;
   width: max-content;
@@ -291,23 +373,29 @@ section[mobile-app], section[similar] > #page-similar {
   border-radius: 32px;
   background-color: $b-orange;
 }
+
 #page-footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+
 .footer-top {
   padding: 3rem 0;
 }
+
 .footer-bottom {
   padding: 31px 0;
 }
+
 .header {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
 }
+
 div[mb-15] > .header {
   margin-bottom: 15px;
 }
+
 .links {
   font-size: 16px;
   line-height: 24px;
@@ -315,21 +403,25 @@ div[mb-15] > .header {
   color: #E0E0E0;
   text-decoration: none;
 }
+
 .footer-col:nth-child(4) > ul {
   display: grid;
   grid-template-columns: repeat(4, min-content);
   column-gap: 24px;
 }
+
 .footer-line {
   box-sizing: border-box;
   width: 100%;
   border: 1px solid #CACACA;
 }
 
-//*ARTIST PAGE*//
-#page-popular-track, #page-discography, #page-similar {
+#page-popular-track, 
+#page-discography, 
+#page-similar {
   padding-top: 100px;
 }
+
 .buttons > .btn {
   display: flex;
   align-items: center;
@@ -340,65 +432,90 @@ div[mb-15] > .header {
   border: none;
   border-radius: 5px;
 }
+
 .mix {
   background-color: $b-purple;
 }
+
 .favorite {
   background-color: $b-orange;
 }
+
 .mr-16 {
   margin-right: 16px;
 }
+
 .btn > img {
   filter: invert(1);
 }
+
 a[grey] {
   color: $p-color;
 }
+
 .artist-main-section > p {
   margin: 16px 0 48px;
 }
+
 .buttons {
   display: grid;
 }
+
 .p-bottom {
   padding-bottom: 48px;
 }
-.list-of-tracks, .list-of-discography, .list-of-similar-artists {
+
+.list-of-tracks, 
+.list-of-discography, 
+.list-of-similar-artists {
   display: grid;
   gap: 25px 50px;
 }
-.popular-track > h3, .track-info > h3 {
+
+.popular-track > h3, 
+.track-info > h3 {
   margin: 0;
   font-size: 12.8px;
   line-height: 19.2px;
   font-weight: bold;
 }
+
 h3[normal] {
   font-weight: 400;
   color: #E0E0E0;
 }
+
 h3[ml-auto]{
   margin-left:auto ;
 }
+
 .popular-track {
   display: flex;
   align-items: center;
 }
+
 .popular-track > img {
   margin-right: 15px;
 }
-.discography-info > h3, .similar-info > h3 {
+
+.discography-info > h3, 
+.similar-info > h3 {
   margin: 0;
 }
-.list-of-discography, .list-of-similar-artists {
+
+.list-of-discography, 
+.list-of-similar-artists {
   display: flex;
   flex-wrap: wrap;
 }
+
 .similar-info {
   text-align: center;
 }
-.discography-item, .similar-item {
+
+.discography-item, 
+.similar-item {
   display: grid;
   row-gap: 18px;
  }
+ 
