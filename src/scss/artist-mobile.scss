@@ -5,12 +5,14 @@
   .artist-main-section {
     padding: 225px 0;
   }
-  .discography-item, .similar-item {
+  .discography-item,
+  .similar-item {
    width: 137px;
    display: grid;
    row-gap: 18px;
   }
-  .discography-item > img, .similar-item > img {
+  .discography-item > img,
+  .similar-item > img {
     height: 137px;
     width: 137px;
   }
