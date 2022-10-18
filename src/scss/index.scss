@@ -61,9 +61,9 @@
   width: 570px;
 }
 
-.page-pricing-structure, 
-.page-news-structure, 
-.page-app-structure, 
+.page-pricing-structure,
+.page-news-structure,
+.page-app-structure,
 #page-footer-structure {
   @include flex-center;
 }
@@ -84,7 +84,7 @@
   line-height: 45px;
 }
 
-.mob-text, 
+.mob-text,
 .mob-img {
   flex: 1;
 }

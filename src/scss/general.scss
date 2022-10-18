@@ -83,7 +83,10 @@ a {
   font-family: "Roboto-Regular";
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   font-family: "Roboto-Regular";
   color: $h-color; 
 }
@@ -92,14 +95,14 @@ p {
   line-height: 1.5;
 }
 
-h1, 
+h1,
 h2 {
   font-weight: bold;
 }
   
-a, 
-p, 
-h1, 
+a,
+p,
+h1,
 h2 {
   margin: 0;
 }
@@ -158,7 +161,7 @@ body {
   border: none;
 }
 
-.name, 
+.name,
 .Email {
   margin-bottom: 1.5rem;
   padding:0 0 0 20px;
@@ -171,7 +174,7 @@ body {
   min-height: 45px;
 }
 
-.name::placeholder, 
+.name::placeholder,
 .Email::placeholder {
   color: $h-color;
 }
@@ -202,8 +205,8 @@ body {
   color: $h-color;
 }
 
-.col-2 > ul, 
-.footer-col > ul, 
+.col-2 > ul,
+.footer-col > ul,
 .footer-bottom > ul {
   list-style-type: none;
   padding: 0;
@@ -213,11 +216,11 @@ body {
   padding-top: 100px; ;
 }
 
-.page-pricing-structure, 
-.page-news-structure, 
-.page-app-structure, 
-#page-popular-track-structure, 
-#page-discography-structure, 
+.page-pricing-structure,
+.page-news-structure,
+.page-app-structure,
+#page-popular-track-structure,
+#page-discography-structure,
 #page-similar-structure {
   @include p-top
 }
@@ -265,8 +268,8 @@ body {
   vertical-align: top;
 }
 
-.bg-free, 
-.bg-standart, 
+.bg-free,
+.bg-standart,
 .bg-premium {
   background-size: cover;
 }
@@ -299,9 +302,9 @@ body {
   text-align: center;
 }
 
-.news-body > p, 
-.mob-text > p, 
-.discography-info > p, 
+.news-body > p,
+.mob-text > p,
+.discography-info > p,
 .similar-info > p {
   color: $p-color;
 }
@@ -349,7 +352,7 @@ body {
   color: $p-color;
 }
 
-section[mobile-app], 
+section[mobile-app],
 section[similar] > #page-similar {
   margin-bottom: 100px;
 }
@@ -416,8 +419,8 @@ div[mb-15] > .header {
   border: 1px solid #CACACA;
 }
 
-#page-popular-track, 
-#page-discography, 
+#page-popular-track,
+#page-discography,
 #page-similar {
   padding-top: 100px;
 }
@@ -465,14 +468,14 @@ a[grey] {
   padding-bottom: 48px;
 }
 
-.list-of-tracks, 
-.list-of-discography, 
+.list-of-tracks,
+.list-of-discography,
 .list-of-similar-artists {
   display: grid;
   gap: 25px 50px;
 }
 
-.popular-track > h3, 
+.popular-track > h3,
 .track-info > h3 {
   margin: 0;
   font-size: 12.8px;
@@ -498,12 +501,12 @@ h3[ml-auto]{
   margin-right: 15px;
 }
 
-.discography-info > h3, 
+.discography-info > h3,
 .similar-info > h3 {
   margin: 0;
 }
 
-.list-of-discography, 
+.list-of-discography,
 .list-of-similar-artists {
   display: flex;
   flex-wrap: wrap;
@@ -513,9 +516,8 @@ h3[ml-auto]{
   text-align: center;
 }
 
-.discography-item, 
+.discography-item,
 .similar-item {
   display: grid;
   row-gap: 18px;
  }
- 

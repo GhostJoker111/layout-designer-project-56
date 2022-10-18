@@ -54,7 +54,10 @@ a {
   font-family: "Roboto-Regular";
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
   font-family: "Roboto-Regular";
   color: #FFFFFF;
 }
@@ -619,17 +622,20 @@ h3[ml-auto] {
     flex-direction: column;
     align-items: center;
   }
-  .forms, form {
+  .forms,
+form {
     width: 100%;
   }
-  .name, .Email {
+  .name,
+.Email {
     width: calc(100% - 25px);
   }
   .button {
     display: flex;
     justify-content: center;
   }
-  .button, .get-access {
+  .button,
+.get-access {
     width: 100%;
   }
   .news-body > h3 {
