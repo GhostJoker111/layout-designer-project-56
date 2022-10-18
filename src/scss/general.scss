@@ -1,32 +1,32 @@
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: Roboto-Regular;
+  src: url('../fonts/Roboto-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Roboto-Medium";
-  src: url(../fonts/Roboto-Medium.ttf);
+  font-family: Roboto-Medium;
+  src: url('../fonts/Roboto-Medium.ttf');
 }
 
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url(../fonts/Roboto-Bold.ttf);
+  font-family: Roboto-Bold;
+  src: url('../fonts/Roboto-Bold.ttf');
 }
 
 @media screen and (min-width: 1240px) {
-h1 {
-  font-size: 60px;
-  line-height: 90px;
+  h1 {
+    font-size: 60px;
+    line-height: 90px;
 }
 
-h2 {
-  font-size: 38px;
-  line-height: 57px;
+  h2 {
+    font-size: 38px;
+    line-height: 57px;
 }
 
-h3 {
-  font-size: 24px;
-  line-height: 36px;
+  h3 {
+    font-size: 24px;
+    line-height: 36px;
 }
 }
 
@@ -80,14 +80,14 @@ h3 {
 }
 
 a {
-  font-family: "Roboto-Regular";
+  font-family: Roboto-Regular;
 }
 
 p,
 h1,
 h2,
 h3 {
-  font-family: "Roboto-Regular";
+  font-family: Roboto-Regular;
   color: $h-color; 
 }
 
@@ -168,7 +168,7 @@ body {
   border: solid 2px $p-color;
   border-radius: 3px;
   background: transparent;
-  font-family: "Roboto-Regular";
+  font-family: Roboto-Regular;
   font-size: 14px;
   line-height: 16.41px;
   min-height: 45px;
