@@ -83,7 +83,7 @@ p,
 h1,
 h2,
 h3 {
-  font-family: Roboto-Regular;
+  font-family: Roboto-Regular, serif;
   color: $h-color;
 }
 
@@ -108,7 +108,7 @@ h3 {
 }
 
 a {
-  font-family: Roboto-Regular;
+  font-family: Roboto-Regular, serif;
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;
@@ -136,7 +136,7 @@ body {
   align-items: center;
 }
 
-.text-center{
+.text-center {
   width: 100%;
   text-align: center;
 }
@@ -152,7 +152,7 @@ body {
 
 .search {
   height: 15px;
-  background: #3C3B3D;
+  background: #3c3b3d;
   border-radius: 50px;
   padding: 5px 0 5px 10px;
   border: none;
@@ -165,7 +165,7 @@ body {
   border: solid 2px $p-color;
   border-radius: 3px;
   background: transparent;
-  font-family: Roboto-Regular;
+  font-family: Roboto-Regular, serif;
   font-size: 14px;
   line-height: 16.41px;
   min-height: 45px;
@@ -187,7 +187,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   color: $h-color;
-  background-color: #34C176;
+  background-color: #34c176;
 }
 
 .col-1 {
@@ -210,7 +210,7 @@ body {
 }
 
 @mixin p-top {
-  padding-top: 100px; ;
+  padding-top: 100px;
 }
 
 .page-pricing-structure,
@@ -251,7 +251,7 @@ body {
 .p-special {
   font-size: 12.8px;
   line-height: 19.2px;
-}  
+}
 
 .pricing-value {
   font-size: 64px;
@@ -272,15 +272,15 @@ body {
 }
 
 .bg-free {
-  background-image: url(../images/subscribe_1.png);
+  background-image: url("../images/subscribe_1.png");
 }
 
 .bg-standart {
-  background-image: url(../images/subscribe_2.png);
+  background-image: url("../images/subscribe_2.png");
 }
 
 .bg-premium {
-  background-image: url(../images/subscribe_3.png);
+  background-image: url("../images/subscribe_3.png");
 }
 
 .btn {
@@ -288,10 +288,10 @@ body {
   padding: 20px 0;
   font-size: 16px;
   line-height: 24px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 5px;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .subscription-footer {
@@ -306,7 +306,8 @@ body {
   color: $p-color;
 }
 
-.w-1200 > .news-item:nth-child(2) { 
+.w-1200 > .news-item:nth-child(2) 
+{ 
   margin-bottom: 64px;
 }
 
