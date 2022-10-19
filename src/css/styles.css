@@ -302,6 +302,10 @@ body {
   margin: 16px 0;
 }
 
+.artist-main-section > p {
+  margin: 16px 0 48px;
+}
+
 .news-author > p:nth-child(2) {
   color: #F89202;
 }
@@ -318,6 +322,12 @@ body {
   line-height: 19px;
   border-color: #cacaca;
   color: #cacaca;
+}
+
+#page-popular-track,
+#page-discography,
+#page-similar {
+  padding-top: 100px;
 }
 
 section[mobile-app],
@@ -383,12 +393,6 @@ div[mb-15] > .header {
   border: 1px solid #cacaca;
 }
 
-#page-popular-track,
-#page-discography,
-#page-similar {
-  padding-top: 100px;
-}
-
 .buttons > .btn {
   display: flex;
   align-items: center;
@@ -418,10 +422,6 @@ div[mb-15] > .header {
 
 a[grey] {
   color: #cacaca;
-}
-
-.artist-main-section > p {
-  margin: 16px 0 48px;
 }
 
 .buttons {

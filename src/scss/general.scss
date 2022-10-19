@@ -219,8 +219,8 @@ body {
 #page-popular-track-structure,
 #page-discography-structure,
 #page-similar-structure {
-  @include p-top;
 
+  @include p-top;
 }
 
 .h-subscription {
@@ -307,9 +307,8 @@ body {
   color: $p-color;
 }
 
-.w-1200 > .news-item:nth-child(2) { 
+.w-1200 > .news-item:nth-child(2) {
   margin-bottom: 64px;
-
 }
 
 .news-author {
@@ -337,6 +336,10 @@ body {
   margin: 16px 0;
 }
 
+.artist-main-section > p {
+  margin: 16px 0 48px;
+}
+
 .news-author > p:nth-child(2) {
   color: $t-orange;
 }
@@ -344,6 +347,7 @@ body {
 .news-author > p:nth-child(3) {
   color: $p-color;
 }
+
 .news-footer > .btn {
   display: block;
   width: max-content;
@@ -352,6 +356,12 @@ body {
   line-height: 19px;
   border-color: $p-color;
   color: $p-color;
+}
+
+#page-popular-track,
+#page-discography,
+#page-similar {
+  padding-top: 100px;
 }
 
 section[mobile-app],
@@ -417,12 +427,6 @@ div[mb-15] > .header {
   border: 1px solid #cacaca;
 }
 
-#page-popular-track,
-#page-discography,
-#page-similar {
-  padding-top: 100px;
-}
-
 .buttons > .btn {
   display: flex;
   align-items: center;
@@ -452,10 +456,6 @@ div[mb-15] > .header {
 
 a[grey] {
   color: $p-color;
-}
-
-.artist-main-section > p {
-  margin: 16px 0 48px;
 }
 
 .buttons {
@@ -518,4 +518,4 @@ h3[ml-auto] {
 .similar-item {
   display: grid;
   row-gap: 18px;
- }
+}
