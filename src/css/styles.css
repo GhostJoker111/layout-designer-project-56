@@ -55,7 +55,7 @@ h1,
 h2,
 h3 {
   font-family: Roboto-Regular, serif;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 p {
@@ -83,7 +83,7 @@ a {
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 body {
@@ -144,7 +144,7 @@ body {
 
 .name::placeholder,
 .Email::placeholder {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .w-1200 {
@@ -157,7 +157,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  color: #FFFFFF;
+  color: #fff;
   background-color: #34c176;
 }
 
@@ -170,7 +170,7 @@ body {
   font-size: 11px;
   text-decoration: none;
   line-height: 16.5px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .col-2 > ul,
@@ -307,7 +307,7 @@ body {
 }
 
 .news-author > p:nth-child(2) {
-  color: #F89202;
+  color: #f89202;
 }
 
 .news-author > p:nth-child(3) {
@@ -348,7 +348,7 @@ section[similar] > #page-similar {
   line-height: 19.2px;
   border: none;
   border-radius: 32px;
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 #page-footer {
@@ -405,11 +405,11 @@ div[mb-15] > .header {
 }
 
 .mix {
-  background-color: #5328A1;
+  background-color: #5328a1;
 }
 
 .favorite {
-  background-color: #95390C;
+  background-color: #95390c;
 }
 
 .mr-16 {
@@ -492,6 +492,8 @@ h3[ml-auto] {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
   .w-1200 {
     width: 1200px;
@@ -520,17 +522,14 @@ h3[ml-auto] {
   .ml-auto {
     margin-left: auto;
   }
-  .background {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
   .main-section > h2 {
     margin-bottom: 30px;
   }
   .main-section > p {
     margin-bottom: 17px;
   }
-  .name, .Email {
+  .name,
+.Email {
     min-width: 245px;
   }
   .Email {
@@ -583,10 +582,10 @@ h3[ml-auto] {
     margin-top: 15px;
   }
   .footer-bottom > ul {
-    margin-top: 0;
-    margin-bottom: 16px;
     display: grid;
     grid-template-columns: repeat(5, min-content);
+    margin-top: 0;
+    margin-bottom: 16px;
     column-gap: 16px;
   }
 }
@@ -636,6 +635,7 @@ form {
     width: 100%;
   }
   .news-body > h3 {
+    margin: 50px 0 16px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -649,9 +649,6 @@ form {
   .news-item > img {
     width: 100%;
     vertical-align: middle;
-  }
-  .news-body > h3 {
-    margin: 50px 0 16px;
   }
   .mob-app {
     display: flex;
